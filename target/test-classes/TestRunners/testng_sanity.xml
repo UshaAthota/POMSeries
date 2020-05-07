@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hubspot App Regression Test Suite ">
+    <test name="Regression Functional regression Test Suite" verbose="2">
+         <classes>
+         
+             <class name="Com.qa.hubspot.tests.LoginPageTest"/>
+            
+             
+             
+             
+          </classes>
+     </test> 
+</suite> 

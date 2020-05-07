@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hubspot App Regression Test Suite ">
+
+
+  <listeners>
+
+
+
+		  <!--  <listener class-name="Com.qa.hubspot.listeners.pdfListener" /> 
+		 <listener class-name="Com.qa.hubspot.listeners.ExtentReportListener" />
+		 <listener class-name="Com.qa.hubspot.listeners.AllurereportListener" />
+		 
+		
+		 
+		 <listener class-name="Com.qa.hubspot.listeners.TesultsListener" />
+		  -->
+		  
+		  <listener class-name="Com.qa.hubspot.listeners.ScreenshotListener" />
+		
+       
+
+  </listeners>
+    
+    <test name="Regression Functional regression Test Suite" verbose="2">
+         <classes>
+         
+             <class name="Com.qa.hubspot.tests.LoginPageTest"/>
+             <!-- <class name="Com.qa.hubspot.tests.HomePageTest"/> 
+             -->
+           
+             
+             
+             
+          </classes>
+     </test> 
+</suite> 

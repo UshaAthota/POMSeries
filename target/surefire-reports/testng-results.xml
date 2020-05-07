@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="25169" started-at="2020-04-30T21:09:35Z" finished-at="2020-04-30T21:10:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="25169" started-at="2020-04-30T21:09:35Z" finished-at="2020-04-30T21:10:00Z">
+      <class name="Com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:Com.qa.hubspot.tests.LoginPageTest@3498ed]" name="verifySignUpLinkTest" duration-ms="42" started-at="2020-04-30T21:09:58Z" finished-at="2020-04-30T21:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:Com.qa.hubspot.tests.LoginPageTest@3498ed]" name="loginTest" duration-ms="492" started-at="2020-04-30T21:09:58Z" finished-at="2020-04-30T21:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- Com.qa.hubspot.tests.LoginPageTest -->
+      <class name="Com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Com.qa.hubspot.tests.HomePageTest@6aaa5eb0]" name="setup" is-config="true" duration-ms="12148" started-at="2020-04-30T21:09:35Z" finished-at="2020-04-30T21:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Com.qa.hubspot.tests.LoginPageTest@3498ed]" name="setup" is-config="true" duration-ms="10842" started-at="2020-04-30T21:09:47Z" finished-at="2020-04-30T21:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:Com.qa.hubspot.tests.HomePageTest@6aaa5eb0]" name="verifyHomePageTitleTest" duration-ms="39" started-at="2020-04-30T21:09:58Z" finished-at="2020-04-30T21:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:Com.qa.hubspot.tests.HomePageTest@6aaa5eb0]" name="verifyHomePageHeaderTest" duration-ms="158" started-at="2020-04-30T21:09:58Z" finished-at="2020-04-30T21:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.qa.hubspot.tests.HomePageTest@6aaa5eb0]" name="tearDown" is-config="true" duration-ms="714" started-at="2020-04-30T21:09:59Z" finished-at="2020-04-30T21:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.qa.hubspot.tests.LoginPageTest@3498ed]" name="tearDown" is-config="true" duration-ms="711" started-at="2020-04-30T21:09:59Z" finished-at="2020-04-30T21:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.qa.hubspot.tests.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

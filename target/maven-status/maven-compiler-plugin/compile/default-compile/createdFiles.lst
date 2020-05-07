@@ -1,0 +1,10 @@
+Com\qa\hubspot\utils\ExcelUtil.class
+Com\qa\hubspot\utils\JavaScriptUtil.class
+Com\qa\hubspot\pages\ContactsPage.class
+Com\qa\hubspot\utils\OptionsManager.class
+Com\qa\hubspot\utils\Constants.class
+Com\qa\hubspot\base\BasePage.class
+Com\qa\hubspot\pages\LoginPage.class
+Com\qa\hubspot\pages\HomePage.class
+Com\qa\hubspot\utils\ElementUtil.class
+Com\qa\hubspot\utils\TimeUtil.class
